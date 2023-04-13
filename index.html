@@ -1,0 +1,1665 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>menu sweety</title>
+  
+
+
+    <style>
+
+  
+.section {
+			background-image: url("pics/back3.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			padding: 50px;
+		}
+
+nav {
+  background-color: #000;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 30px;
+  position: relative;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #f7d65b;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover:before {
+  transform: scaleX(1);
+}
+
+nav a:hover {
+  color: #f7d65b;
+}
+
+nav a.active {
+  color: #f7d65b;
+}
+
+nav a.active:before {
+  transform: scaleX(1);
+}
+
+@media (max-width: 767px) {
+  nav {
+    padding: 10px;
+  }
+  nav li {
+    display: block;
+    margin: 0;
+  }
+  nav li:last-child {
+    margin-bottom: 20px;
+  }
+}
+.black-gold-section {
+  background-color: #1c1c1c;
+  background-image: linear-gradient(45deg, #f7d65b, #e59c3c);
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.section-subtitle {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #f7d65b;
+  padding: 15px 40px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #e59c3c;
+}
+.hero-section {
+  background-color: #1c1c1c;
+  background-image: linear-gradient(45deg, #f7d65b, #e59c3c);
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 72px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+ 
+
+
+
+
+
+h2 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: gold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h3 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: gold black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+
+body {
+  background-color: #1d1d1d;
+}
+
+.container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+        }
+        
+        .box {
+          width: 200px;
+          height: 200px;
+          background-color: #333;
+          color: #f6c90e;
+          padding: 20px;
+          text-align: center;
+          margin: 10px;
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+          transition: transform 0.3s ease;
+        }
+        
+
+        p,h1, h2, h3, h4, h5, h6 {
+  color: #ffd700;
+}
+
+a {
+  color: #ffd700;
+  text-decoration: none;
+  border-bottom: 1px solid #ffd700;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #ffd700;
+}
+
+
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.background-image {
+  background-image: url("pics/back1.jpg");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.sections {
+  height: 100%;
+}
+
+.section {
+  height: 100%;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+.section:nth-child(odd) .content {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.section:nth-child(even) .content {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.menu-section {
+    background-image: url("pics/back1.jpg");
+  padding: 60px 0;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.section-title h2 {
+  font-size: 36px;
+  color: #ff9800;
+  text-transform: uppercase;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.menu-item__image {
+  height: 200px;
+  width: 200px;
+  background-size: cover;
+  background-position: center;
+  margin-right: 60px;
+  border-radius: 50%;
+  border: 10px solid #ff9800;
+  box-shadow: 0 0 10px #ff9800;
+}
+
+.menu-item__info {
+  flex-grow: 1;
+  color: #000;
+}
+
+.menu-item__info h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.menu-item__info p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.menu-item__price {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ff9800;
+}
+
+
+
+
+#goTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  background-color: #333;
+  color: rgb(206, 8, 8);
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#goTopBtn span {
+  font-size: 50px;
+  transform: rotate(-90deg);
+}
+
+
+
+
+
+
+
+    </style>
+   
+</head>
+
+<body>
+
+
+ 
+  
+ 
+  
+  
+  
+
+        
+        <div class="sections">
+          <div><section>
+          <section class="section" id="fast food menu ">
+            
+            <div class="content">
+              
+              <h2>sweety food menu</h2>
+              <img src="pics/logo.png" alt="My logo" style="height: 200px; width: 200px;">
+              <h1>see what we have done for you and enjoy our mouth-watering dishes</h1>
+              <p>fast food menu </p>
+              <nav>
+                <ul>
+                  <li><a href="#burgers">Burgers</a></li>
+                  <li><a href="#sandwich/raghif">Sandwich</a></li>
+                  <li><a href="#pizzas">pizzas</a></li>
+                  <li><a href="#tacos">tacos</a></li>
+                  <li><a href="#malfouf">malfouf</a></li>
+                  <li><a href="#ma9loub">ma9loub</a></li>
+                </ul>
+              </nav>
+              <p>restaurant menu</p>
+              <nav>
+                <ul>
+                  <li><a href="#entrée">entrée</a></li>
+                  <li><a href="#pasta">pasta</a></li>
+                  <li><a href="#kintaki">kintaki</a></li>
+                  <li><a href="#gratins">gratins</a></li>
+                  <li><a href="#plats">plats</a></li>
+                
+                </ul>
+              </nav>
+               <p>dessert menu </p>
+              <nav>
+                <ul>
+                  <li><a href="#crepe">crepe</a></li>
+                  <li><a href="#gaufre">gaufre</a></li>
+                  <li><a href="#pancake">pancake</a></li>
+                  <li><a href="#bubble waffles">bubble waffles</a></li>
+                  <li><a href="#fruitella">fruitella</a></li>
+                  <li><a href="#dessert">dessert</a></li>
+                
+                </ul>
+              </nav>
+              <p>drinks menu </p>
+              <nav>
+                <ul>
+                  <li><a href="#smothie">smothie</a></li>
+                  <li><a href="#milkchake">milkchake</a></li>
+                  <li><a href="#boisson froides">boisson froides</a></li>
+                  <li><a href="#boisson chaudes">boisson chaudes</a></li>
+                  
+                
+                </ul>
+              </nav>
+            </div></section>
+           
+            <section id="burgers" class="menu-section"> 
+              <div class="section-title">
+                <h2>Burgers</h2>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/humburg.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3>cheese Burger........................<span class="menu-item__price">250 DA</span></h3>
+                  <p>100% bœuf, pain brioché, fromage, laitue, tomate, oignons grillés et sauce spéciale.</p>
+                 
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/humburg.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3>fast Cheeseburger.........................<span class="menu-item__price">300 DA.</span></h3>
+                  <p>100% bœuf, pain brioché, fromage, laitue, tomate, oignons grillés et sauce spéciale + ("Barquette frite")</p>
+                  
+                </div>
+              </div>
+              <!-- Add more burger items here -->
+              <div class="menu-item">
+                  <div class="menu-item__image" style="background-image: url('pics/humburg.jpg')"></div>
+                  <div class="menu-item__info">
+                    <h3>le bigy Cheeseburger.................<span class="menu-item__price">250 DA.</span></h3>
+                    <p>Deux steaks 100% bœuf, fromage fondu, ketchup, mtutarde, laitue et tomate.</p>
+                    
+                  </div>
+              </div>
+                  <div class="menu-item">
+                      <div class="menu-item__image" style="background-image: url('pics/humburg.jpg')"></div>
+                      <div class="menu-item__info">
+                        <h3>cheese chicken........................<span class="menu-item__price">250 DA.</span></h3>
+                        <p>Escalope haché, pain brioché, fromage, laitue, tomate, oignons grillés et sauce spéciale</p>
+                        
+                      </div>
+            </section>
+
+
+
+<!-- hadi rahi section ta3 sandwich-->
+
+            <section id="sandwich/raghif" class="menu-section"> 
+              <div class="section-title">
+                <h2><u><i>sandwich</i></u></h2>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/sandzish.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3> escalope....................... <span class="menu-item__price">250 DA</span></h3>
+                  <p>escalope , frit,salade,fromage.</p>
+                 
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/sandzish.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3> viande haché....................<span class="menu-item__price">250 DA</span></h3>
+                  <p>viande haché, frit,salade,fromage.</p>
+                  
+                </div>
+              </div>
+              <!-- Add more burger items here -->
+              <div class="menu-item">
+                  <div class="menu-item__image" style="background-image: url('pics/sandzish.jpg')"></div>
+                  <div class="menu-item__info">
+                    <h3>kabda.......................<span class="menu-item__price">300 DA.</span></h3>
+                    <p>kabda , frit,salade,fromage.</p>
+                    
+                  </div>
+              </div>
+                  <div class="menu-item">
+                      <div class="menu-item__image" style="background-image: url('pics/sandzish.jpg')"></div>
+                      <div class="menu-item__info">
+                        <h3> chawerma.......................<span class="menu-item__price">250 DA.</span></h3>
+                        <p>chawerma , frit,salade,fromage.</p>
+                        
+                      </div>
+            </section>
+            <!-- hadi rahi section ta3 pizza-->
+
+            <section id="pizzas" class="menu-section"> 
+              <div class="section-title">
+                <h2><u><i>pizza</i></u></h2>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/pizza.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3><u>Pizzas (base de Sauce tomate) </u></h3>
+                  <h3>Margarita ....................... <span class="menu-item__price">250 DA</span></h3>
+                  <p>Sauce tomate, fromage,poivron.</p>
+                 
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/pizza.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3>buffalo ....................<span class="menu-item__price"><sup>L</sup>350   <sup>xL</sup> 700 <sup>XxL</sup> 1050 DA</span></h3>
+                  <p>Sauce tomate,fromage,poivron, viande hachée</p>
+                  
+                </div>
+              </div>
+              
+              <div class="menu-item">
+                  <div class="menu-item__image" style="background-image: url('pics/pizza.jpg')"></div>
+                  <div class="menu-item__info">
+                      <h3>fermiere ....................<span class="menu-item__price"><sup>L</sup>300   <sup>xL</sup> 600 <sup>XxL</sup> 900 DA</span></h3>
+                    <p>Sauce tomate,fromage,poivron, escalope hachée</p>
+                    
+                  </div>
+              </div>
+                  
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/pizza.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3>oriental ...................<span class="menu-item__price"><sup>L</sup>350   <sup>xL</sup> 700  <sup>XxL</sup> 1050 DA</span></h3>
+                  <p>Sauce tomate,fromage,poivron, mergez</p>
+                  
+                </div></div>
+                <div class="menu-item">
+                  <div class="menu-item__image" style="background-image: url('pics/pizza.jpg')"></div>
+                  <div class="menu-item__info">
+                    <h3>champignon...................<span class="menu-item__price"><sup>L</sup>350   <sup>xL</sup> 700  <sup>XxL</sup> 1050 DA</span></h3>
+                    <p>Sauce tomate,fromage,poivron,champignon</p>
+                    
+                  </div></div>
+                  <div class="menu-item">
+                    <div class="menu-item__image" style="background-image: url('pics/pizza.jpg')"></div>
+                    <div class="menu-item__info">
+                      <h3>tonata ....................<span class="menu-item__price"><sup>L</sup>350  <sup>xL</sup> 700  <sup>XxL</sup> 1050 DA</span></h3>
+                      <p>Sauce tomate,fromage,poivron,thon</p>
+                      
+                    </div></div>
+                    <div class="menu-item">
+                      <div class="menu-item__image" style="background-image: url('pics/pizza.jpg')"></div>
+                      <div class="menu-item__info">
+                        <h3>oriental ....................<span class="menu-item__price"><sup>L</sup>350  <sup>xL</sup> 700 <sup>XxL</sup> 1050 DA</span></h3>
+                        <p>Sauce tomate,fromage,poivron, mergez</p>
+                        
+                      </div></div>
+                      <h3><u>Pizzas (base de creme fraiche) </u></h3>
+                      <div class="menu-item">
+                        <div class="menu-item__image" style="background-image: url('pics/pizza.jpg')"></div>
+                        <div class="menu-item__info">
+                          <h3>boisee ...............<span class="menu-item__price"><sup>L</sup>350 DA  <sup>xL</sup> 700 <sup>XxL</sup> 1050 DA</span></h3>
+                          <p>creme fraiche, fromage,sauce gruyere,escalope.</p>
+                          
+                        </div></div>
+                        <div class="menu-item">
+                          <div class="menu-item__image" style="background-image: url('pics/pizza.jpg')"></div>
+                          <div class="menu-item__info">
+                            <h3>boisee viande .............<span class="menu-item__price"><sup>L</sup>400  <sup>xL</sup> 800 <sup>XxL</sup> 1200 DA</span></h3>
+                            <p>creme fraiche, fromage,sauce gruyere,viande hachée</p>
+                            
+                          </div></div>
+                          <div class="menu-item">
+                            <div class="menu-item__image" style="background-image: url('pics/pizza.jpg')"></div>
+                            <div class="menu-item__info">
+                              <h3>boisee oriental ...........<span class="menu-item__price"><sup>L</sup>400 <sup>xL</sup> 800<sup>XxL</sup> 1200 DA</span></h3>
+                              <p>creme fraiche, fromage,sauce gruyere,mergez</p>
+                              
+                            </div></div>
+                            <div class="menu-item">
+                              <div class="menu-item__image" style="background-image: url('pics/pizza.jpg')"></div>
+                              <div class="menu-item__info">
+                                <h3>boisee 4 fromage ..........<span class="menu-item__price"><sup>L</sup>450<sup>xL</sup> 800 <sup>XxL</sup> 1350 DA</span></h3>
+                                <p>creme fraiche, plusieurs types de fromage,sauce gruyere</p>
+                                
+                              </div></div>
+                              <div class="menu-item">
+                                <div class="menu-item__image" style="background-image: url('pics/pizza.jpg')"></div>
+                                <div class="menu-item__info">
+                                  <h3>boisee champignon ........<span class="menu-item__price"><sup>L</sup>400 <sup>xL</sup> 800 <sup>XxL</sup> 1200 DA</span></h3>
+                                  <p>creme fraiche, fromage,sauce gruyere,champignon</p>
+                                  
+                                </div></div>
+                                <div class="menu-item">
+                                  <div class="menu-item__image" style="background-image: url('pics/pizza.jpg')"></div>
+                                  <div class="menu-item__info">
+                                    <h3> bienca kebab ........<span class="menu-item__price"><sup>L</sup>400 <sup>xL</sup> 800<sup>XxL</sup> 1200 DA</span></h3>
+                                    <p>creme fraiche, fromage,sauce gruyere,kebab</p>
+                                    
+                                  </div></div>
+                                  <h2>Pizzas (autre et delicieux pizzas) </h2>
+                                  <div class="menu-item">
+                                    <div class="menu-item__image" style="background-image: url('pics/pizza.jpg')"></div>
+                                    <div class="menu-item__info">
+                                      <h3> "sweety"............<span class="menu-item__price"><sup>L</sup>500 <sup>xL</sup> 1000 <sup>XxL</sup> 1500 DA</span></h3>
+                                      <p>4 saisons</p></div></div>
+                                      <div class="menu-item">
+                                        <div class="menu-item__image" style="background-image: url('pics/pizza.jpg')"></div>
+                                        <div class="menu-item__info">
+                                          <h3> kabeb ...............<span class="menu-item__price"><sup>L</sup>350 <sup>xL</sup> 700<sup>XxL</sup> 1050 DA</span></h3>
+                                          <p>Sauce tomate,fromage,poivron,kabeb</p></div></div>
+                                          <div class="menu-item">
+                                            <div class="menu-item__image" style="background-image: url('pics/pizza.jpg')"></div>
+                                            <div class="menu-item__info">
+                                              <h3> reine ..............<span class="menu-item__price"><sup>L</sup>400 <sup>xL</sup> 800<sup>XxL</sup> 1200 DA</span></h3>
+                                              <p>Sauce tomate,fromage,jambon dinde</p></div></div>
+                                              <div class="menu-item">
+                                                <div class="menu-item__image" style="background-image: url('pics/pizza.jpg')"></div>
+                                                <div class="menu-item__info">
+                                                  <h3> hawainne.............<span class="menu-item__price"><sup>L</sup>450 <sup>xL</sup> 900<sup>XxL</sup> 1350 DA</span></h3>
+                                                  <p>Sauce tomate,fromage,ananas</p></div></div>
+                                                  <div class="menu-item">
+                                                    <div class="menu-item__image" style="background-image: url('pics/pizza.jpg')"></div>
+                                                    <div class="menu-item__info">
+                                                      <h3> 1/2 Pizza ............<span class="menu-item__price"><sup>L</sup>450 <sup>xL</sup> 900<sup>XxL</sup> 1350 DA</span></h3>
+                                                      <p>2 saisons</p></div></div>
+            </section>
+            <!-- hadi rahi section ta3 tacos-->
+
+        </section>
+           <section id="tacos" class="menu-section"> 
+              <div class="section-title">
+                <h2><u><i>tacos</i></u></h2>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/tacos.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3> escalope............................ <span class="menu-item__price">350 DA</span></h3>
+                  <p>escalope , frit,salade,fromage.</p>
+                 
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/tacos.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3>viande haché..............................<span class="menu-item__price">400 DA.</span></h3>
+                  <p>viande haché, frit,salade,fromage.</p>
+                  
+                </div>
+              </div>
+              <!-- Add more burger items here -->
+              <div class="menu-item">
+                  <div class="menu-item__image" style="background-image: url('pics/tacos.jpg')"></div>
+                  <div class="menu-item__info">
+                    <h3>kabda........................<span class="menu-item__price">400 DA.</span></h3>
+                    <p>kabda , frit,salade,fromage.</p>
+                    
+                  </div>
+              </div>
+                  <div class="menu-item">
+                      <div class="menu-item__image" style="background-image: url('pics/tacos.jpg')"></div>
+                      <div class="menu-item__info">
+                        <h3> tacobab...........................<span class="menu-item__price">350 DA.</span></h3>
+                        <p>chawerma , frit,salade,fromage.</p>
+                        
+                      </div></div>
+                      <div class="menu-item">
+                        <div class="menu-item__image" style="background-image: url('pics/tacos.jpg')"></div>
+                        <div class="menu-item__info">
+                          <h3> mixte..........................<span class="menu-item__price">400 DA.</span></h3>
+                          <p>poulet.vinande hachée, frit,salade,fromage.</p>
+                          
+                        </div></div>
+                        <div class="menu-item">
+                          <div class="menu-item__image" style="background-image: url('pics/tacos.jpg')"></div>
+                          <div class="menu-item__info">
+                            <h3>le phillys...........................<span class="menu-item__price">450 DA.</span></h3>
+                            <p>vinande hachée.ouef.frite.fromage.sause fromage</p>
+                            
+                          </div></div>
+                          <div class="menu-item">
+                            <div class="menu-item__image" style="background-image: url('pics/tacos.jpg')"></div>
+                            <div class="menu-item__info">
+                              <h3>  gratiné escalope.............................<span class="menu-item__price">400 DA.</span></h3>
+                              <p>escalope.extra fromage .frite.sause gruyere</p>
+                              
+                            </div></div>
+                            <div class="menu-item">
+                              <div class="menu-item__image" style="background-image: url('pics/tacos.jpg')"></div>
+                              <div class="menu-item__info">
+                                <h3>  gratiné viande hachée...................<span class="menu-item__price">450 DA.</span></h3>
+                                <p>viande hachée..frite.extra fromage.sause gruyere</p>
+                                
+                              </div></div>
+                              <div class="menu-item">
+                                <div class="menu-item__image" style="background-image: url('pics/tacos.jpg')"></div>
+                                <div class="menu-item__info">
+                                  <h3>  gratiné mexican............................<span class="menu-item__price">400 DA.</span></h3>
+                                  <p>escalope mexican.frite.fromage.sause gruyere</p>
+                                  
+                                </div></div>
+                                <div class="menu-item">
+                                  <div class="menu-item__image" style="background-image: url('pics/tacos.jpg')"></div>
+                                  <div class="menu-item__info">
+                                    <h3>le fameux..........................<span class="menu-item__price">450 DA.</span></h3>
+                                    <p>gratiné aux poulet fumeé.frite.fromage.sause gruyere</p>
+                                    
+                                  </div></div>
+                                  <div class="menu-item">
+                                    <div class="menu-item__image" style="background-image: url('pics/tacos.jpg')"></div>
+                                    <div class="menu-item__info">
+                                      <h3>végétarien................................<span class="menu-item__price">450 DA.</span></h3>
+                                      <p>poulet.tomate.olive.poivron.frite.fromage.sause fromage</p>
+                                      
+                                    </div></div>
+                                    <div class="menu-item">
+                                      <div class="menu-item__image" style="background-image: url('pics/tacos.jpg')"></div>
+                                      <div class="menu-item__info">
+                                        <h3>le montagnard................................<span class="menu-item__price">450 DA.</span></h3>
+                                        <p>gratiné aux cheddar.viande.fromage.sause gruyere</p>
+                                        
+                                      </div></div>
+                                      <div class="menu-item">
+                                        <div class="menu-item__image" style="background-image: url('pics/tacos.jpg')"></div>
+                                        <div class="menu-item__info">
+                                          <h3>le gourmand................................<span class="menu-item__price">500 DA.</span></h3>
+                                          <p>escalope.extra fromage .frite.sause gruyere</p>
+                                          
+                                        </div></div>
+                                        <!-- 
+                hada rahou malfouf
+               -->
+              <section id="malfouf" class="menu-section"> 
+                <div class="section-title">
+                  <h2><u><i>malfouf</i></u></h2>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-item__image" style="background-image: url('pics/malfouf.jpg')"></div>
+                  <div class="menu-item__info">
+                    <h3> escalope............................... <span class="menu-item__price">250 DA</span></h3>
+                    <p>escalope , frit,salade,fromage.</p>
+                   
+                  </div>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-item__image" style="background-image: url('pics/malfouf.jpg')"></div>
+                  <div class="menu-item__info">
+                    <h3> viande haché.........................<span class="menu-item__price">350 DA.</span></h3>
+                    <p>viande haché, frit,salade,fromage.</p>
+                    
+                  </div>
+                </div>
+                <!-- Add more burger items here -->
+                <div class="menu-item">
+                    <div class="menu-item__image" style="background-image: url('pics/malfouf.jpg')"></div>
+                    <div class="menu-item__info">
+                      <h3> kabda...............................<span class="menu-item__price">300 DA.</span></h3>
+                      <p>kabda , frit,salade,fromage.</p>
+                      
+                    </div>
+                </div>
+                    <div class="menu-item">
+                        <div class="menu-item__image" style="background-image: url('pics/malfouf.jpg')"></div>
+                        <div class="menu-item__info">
+                          <h3> chawerma.........................<span class="menu-item__price">250 DA.</span></h3>
+                          <p>chawerma , frit,salade,fromage.</p>
+                          
+                        </div></div>
+                                        <!-- hadi rahi section ta3 ma9louf-->
+
+            <section id="ma9loub" class="menu-section"> 
+              <div class="section-title">
+                <h2><u><i>ma9loub</i></u></h2>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/ma9loub.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3> escalope........................... <span class="menu-item__price">350 DA</span></h3>
+                  <p>escalope ,crème fraiche,fromage.</p>
+                 
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/ma9loub.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3> viande haché...........................<span class="menu-item__price">350 DA.</span></h3>
+                  <p> viande haché,crème fraiche,fromage.</p>
+                  
+                </div>
+              </div>
+              <!-- Add more burger items here -->
+              <div class="menu-item">
+                  <div class="menu-item__image" style="background-image: url('pics/ma9loub.jpg')"></div>
+                  <div class="menu-item__info">
+                    <h3> kabda..........................<span class="menu-item__price">400 DA.</span></h3>
+                    <p>kabda ,crème fraiche ,fromage.</p>
+                    
+                  </div>
+              </div>
+                  <div class="menu-item">
+                      <div class="menu-item__image" style="background-image: url('pics/ma9loub.jpg')"></div>
+                      <div class="menu-item__info">
+                        <h3> chawerma.........................<span class="menu-item__price">350 DA.</span></h3>
+                        <p>chawerma ,crème fraiche,fromage.</p>
+                        
+                      </div></div>
+                      <div class="menu-item">
+                        <div class="menu-item__image" style="background-image: url('pics/ma9loub.jpg')"></div>
+                        <div class="menu-item__info">
+                          <h3> sweety.........................<span class="menu-item__price">500 DA.</span></h3>
+                          <p>3 viande,crème fraiche,fromage.</p>
+                          
+                        </div></div>
+
+                                            <!-- hadi rahi section ta3 ma9louf-->
+
+            <section id="entrée" class="menu-section"> 
+              <div class="section-title">
+                <h2><u><i>entrée</i></u></h2>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/masi.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3> salade algerienne.......................... <span class="menu-item__price">200 dA.</span></h3>
+                 
+                 
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/cesar.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3> salade césar.........................<span class="menu-item__price">300 DA.</span></h3>
+                 
+                  
+                </div>
+              </div>
+              <!-- Add more burger items here -->
+              <div class="menu-item">
+                  <div class="menu-item__image" style="background-image: url('pics/entree.jpg')"></div>
+                  <div class="menu-item__info">
+                    <h3>macédoine.......................<span class="menu-item__price">300 DA.</span></h3>
+                    
+                    
+                  </div>
+              </div>
+                  <div class="menu-item">
+                      <div class="menu-item__image" style="background-image: url('pics/soupe.jpg')"></div>
+                      <div class="menu-item__info">
+                        <h3>soupe de légumes..............<span class="menu-item__price">250 DA.</span></h3>
+                        
+                        
+                      </div></div>
+                      <div class="menu-item">
+                        <div class="menu-item__image" style="background-image: url('pics/hmis.webp')"></div>
+                        <div class="menu-item__info">
+                          <h3>  hmis..................<span class="menu-item__price">200 DA.</span></h3>
+                       
+                          
+                        </div></div>
+                        
+                                            <!-- hadi rahi section ta3 pasta
+                                            -->
+
+            <section id="pasta" class="menu-section"> 
+              <div class="section-title">
+                <h2><u><i>pasta</i></u></h2>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/spagiti.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3> spaghittis polognaise.......................... <span class="menu-item__price">400 dA.</span></h3>
+                 
+                 
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/pasta.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3>pasta 3 fromages................<span class="menu-item__price">450 DA.</span></h3>
+                 
+                  
+                </div>
+              </div>
+              <!-- Add more burger items here -->
+              <div class="menu-item">
+                  <div class="menu-item__image" style="background-image: url('pics/pastaa.jpg')"></div>
+                  <div class="menu-item__info">
+                    <h3>pasta fromage viande ...............<span class="menu-item__price">450 DA.</span></h3>
+                  
+                    
+                  </div>
+             
+                          
+                        </div></div>
+                                          <!-- hadi rahi section ta3 kintaki-->
+
+            <section id="kintaki" class="menu-section"> 
+              <div class="section-title">
+                <h2><u><i>kintaki</i></u></h2>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/kintaki.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3>boxi max................. <span class="menu-item__price">650 DA</span></h3>
+                  <p>cuisse,haut de cuisse,tendre,aile,frite,salade,boisson</p>
+                 
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/kintaki.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3> crispy tender....................<span class="menu-item__price">550 DA.</span></h3>
+                  <p>4 pieces tender,frite,salade,boisson</p>
+                  
+                </div>
+              </div>
+              <!-- Add more burger items here -->
+              <div class="menu-item">
+                  <div class="menu-item__image" style="background-image: url('pics/kintaki.jpg')"></div>
+                  <div class="menu-item__info">
+                    <h3>le sol crispy................<span class="menu-item__price">650 DA.</span></h3>
+                    <p>sol crispy,frite,salade,boisson</p>
+                    
+                  </div>
+              </div>
+                  <div class="menu-item">
+                      <div class="menu-item__image" style="background-image: url('pics/kintaki.jpg')"></div>
+                      <div class="menu-item__info">
+                        <h3> family box.............<span class="menu-item__price">1600 DA.</span></h3>
+                        <p>3 cuisse,3 haut de cuisse,3 tender,2 frite,salade,soda 1L</p>
+                        
+                      </div></div>
+                      <div class="menu-item">
+                        <div class="menu-item__image" style="background-image: url('pics/kintaki.jpg')"></div>
+                        <div class="menu-item__info">
+                          <h3>extra crispy...................<span class="menu-item__price">1300 DA.</span></h3>
+                          <p>10 tendre,3 frite,salade,soda 1L</p>
+                          
+                        </div></div>
+                        <div class="menu-item">
+                          <div class="menu-item__image" style="background-image: url('pics/kintaki.jpg')"></div>
+                          <div class="menu-item__info">
+                            <h3>extra family....................<span class="menu-item__price">2500 DA.</span></h3>
+                            <p>5 cuisse,5 haut de cuisse,5 tender,5 aile,4 frite,2 big salade,2 soda 1L</p>
+                            
+                        
+                      </div></div>
+                      <!-- hadi rahi section ta3 gr-->
+
+            <section id="gratins" class="menu-section"> 
+              <div class="section-title">
+                <h2><u><i>gratins</i></u></h2>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/gratine.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3>poules.............. <span class="menu-item__price">450 DA</span></h3>
+                  
+                 
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/gratine.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3> viande hachée.........<span class="menu-item__price">500 DA.</span></h3>
+                  
+                  
+                </div>
+              </div>
+              <!-- Add more burger items here -->
+              <div class="menu-item">
+                  <div class="menu-item__image" style="background-image: url('pics/gratine.jpg')"></div>
+                  <div class="menu-item__info">
+                    <h3>mixte......................<span class="menu-item__price"></span>500 DA.</span></h3>
+                    
+                    
+                  </div>
+              </div>
+                  <div class="menu-item">
+                      <div class="menu-item__image" style="background-image: url('pics/gratine.jpg')"></div>
+                      <div class="menu-item__info">
+                        <h3> 3 fromages..................<span class="menu-item__price">550 DA.</span></h3>
+                        
+                        
+                      </div></div>
+                     
+                                              <!-- hadi rahi section ta3 plats-->
+
+            <section id="plats" class="menu-section"> 
+              <div class="section-title">
+                <h2><u><i>plats</i></u></h2>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/chawarma.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3>chawarma.................... <span class="menu-item__price">450 DA</span></h3>
+                  <p>chawarma, garniture</p>
+                 
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/plat.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3>escalope panée.................<span class="menu-item__price">600 DA.</span></h3>
+                  <p>escalope panée, garniture</p>
+                  
+                </div>
+              </div>
+              <!-- Add more burger items here -->
+              <div class="menu-item">
+                  <div class="menu-item__image" style="background-image: url('pics/plat.jpg')"></div>
+                  <div class="menu-item__info">
+                    <h3> kabda..............<span class="menu-item__price">500 DA.</span></h3>
+                    <p> kabda,garniture</p>
+                    
+                  </div>
+              </div>
+                  <div class="menu-item">
+                      <div class="menu-item__image" style="background-image: url('pics/plat.jpg')"></div>
+                      <div class="menu-item__info">
+                        <h3>viande hachée.....................<span class="menu-item__price">550 DA.</span></h3>
+                        <p>viande hachée,garniture</p>
+                        
+                      </div></div>
+                      <div class="menu-item">
+                        <div class="menu-item__image" style="background-image: url('pics/kabab.jpg')"></div>
+                        <div class="menu-item__info">
+                          <h3>kabab.....................<span class="menu-item__price">550 DA.</span></h3>
+                          <p>brochettes de shich kabab, garniture</p>
+                          
+                        </div></div>
+                        <div class="menu-item">
+                          <div class="menu-item__image" style="background-image: url('pics/cuisse.jpg')"></div>
+                          <div class="menu-item__info">
+                            <h3>cuisse roti...................<span class="menu-item__price">600 DA.</span></h3>
+                            <p>cuisse , garniture</p>
+                            
+                        
+                      </div></div>
+                      <div class="menu-item">
+                        <div class="menu-item__image" style="background-image: url('pics/plat.jpg')"></div>
+                        <div class="menu-item__info">
+                          <h3>escalope a la creme..................<span class="menu-item__price">600 DA.</span></h3>
+                          <p>escalope a la creme,garniture</p>
+                          
+                      
+                    </div></div>
+                    <div class="menu-item">
+                      <div class="menu-item__image" style="background-image: url('pics/plat.jpg')"></div>
+                      <div class="menu-item__info">
+                        <h3>poulet farci..................<span class="menu-item__price">800 DA.</span></h3>
+                        <p>poulet farci, garniture</p>
+                        
+                    
+                  </div></div>
+                  <div class="menu-item">
+                    <div class="menu-item__image" style="background-image: url('pics/cord.jpg')"></div>
+                    <div class="menu-item__info">
+                      <h3>cordon bleu....................<span class="menu-item__price">650 DA.</span></h3>
+                      <p>cordon bleu, garniture</p>
+                      
+                  
+                </div></div>
+                <div class="menu-item">
+                  <div class="menu-item__image" style="background-image: url('pics/plat.jpg')"></div>
+                  <div class="menu-item__info">
+                    <h3>mixte 2 viande....................<span class="menu-item__price">650 DA.</span></h3>
+                    <p>2 viande, garniture</p>
+                    
+                
+              </div></div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/plat.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3>mixte 3 viande...................<span class="menu-item__price">800 DA.</span></h3>
+                  <p>3 viande,garniture</p>
+                  
+              
+            </div></div>
+      
+          
+          <div class="menu-item">
+            <div class="menu-item__image" style="background-image: url('pics/chef.jpg')"></div>
+            <div class="menu-item__info">
+              <h3>plat de chef....................<span class="menu-item__price">1000 DA.</span></h3>
+              <p>surprise</p>
+              
+          
+        </div></div>
+        <div class="menu-item">
+          <div class="menu-item__image" style="background-image: url('pics/maison.jpg')"></div>
+          <div class="menu-item__info">
+            <h3>plat maison.....................<span class="menu-item__price">1400 DA.</span></h3>
+            
+            
+        
+      </div></div>
+      <!-- hadi rahi section ta3 crepe-->
+
+      <section id="crepe" class="menu-section"> 
+        <div class="section-title">
+          <h2><u><i>crepe</i></u></h2>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item__image" style="background-image: url('pics/crepe.jpg')"></div>
+          <div class="menu-item__info">
+            <h3>nuttela.......................... <span class="menu-item__price">250 DA</span></h3>
+           
+           
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item__image" style="background-image: url('pics/crepe.jpg')"></div>
+          <div class="menu-item__info">
+            <h3>nuttela au choix.......................<span class="menu-item__price">400 DA</span></h3>
+            <p>amande-cajou-noix</p>
+            
+          </div>
+        </div>
+      
+        <div class="menu-item">
+            <div class="menu-item__image" style="background-image: url('pics/crepe.jpg')"></div>
+            <div class="menu-item__info">
+              <h3>banane............................<span class="menu-item__price">300 DA.</span></h3>
+              
+              
+            </div>
+        </div>
+            <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/crepe.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3>banane au choix......................<span class="menu-item__price">450 DA.</span></h3>
+                  <p>amande-cajou-noix</p>
+                  
+                </div></div>
+                <div class="menu-item">
+                  <div class="menu-item__image" style="background-image: url('pics/crepe.jpg')"></div>
+                  <div class="menu-item__info">
+                    <h3>fruits............................<span class="menu-item__price">400 DA.</span></h3>
+                  </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/crepe.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3>luxury au choix......................<span class="menu-item__price">500 DA</span></h3>
+                  <p>oreo-mars-bueno</p>
+                  
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/crepe\ sweety.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3>sweety.......................<span class="menu-item__price">600 DA</span></h3>
+                  
+                  
+                </div>
+              </div>
+           
+      </section>
+      <!-- hadi rahi section ta3 gfre-->
+
+      <section id="gaufre" class="menu-section"> 
+        <div class="section-title">
+          <h2><u><i>gaufre</i></u></h2>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item__image" style="background-image: url('pics/ghaufre.jpg')"></div>
+          <div class="menu-item__info">
+            <h3>nuttela.......................... <span class="menu-item__price">250 DA</span></h3>
+           
+           
+          </div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item__image" style="background-image: url('pics/ghaufre.jpg')"></div>
+          <div class="menu-item__info">
+            <h3>nuttela au choix.......................<span class="menu-item__price">400 DA</span></h3>
+            <p>amande-cajou-noix</p>
+            
+          </div>
+        </div>
+      
+        <div class="menu-item">
+            <div class="menu-item__image" style="background-image: url('pics/ghaufre.jpg')"></div>
+            <div class="menu-item__info">
+              <h3>banane............................<span class="menu-item__price">300 DA.</span></h3>
+              
+              
+            </div>
+        </div>
+            <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/ghaufre.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3>banane au choix......................<span class="menu-item__price">450 DA.</span></h3>
+                  <p>amande-cajou-noix</p>
+                  
+                </div></div>
+                <div class="menu-item">
+                  <div class="menu-item__image" style="background-image: url('pics/ghaufre.jpg')"></div>
+                  <div class="menu-item__info">
+                    <h3>fruits............................<span class="menu-item__price">400 DA.</span></h3>
+                  </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/ghaufre.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3>luxury au choix......................<span class="menu-item__price">500 DA</span></h3>
+                  <p>oreo-mars-bueno</p>
+                  
+                </div>
+              </div>
+              <div class="menu-item">
+                <div class="menu-item__image" style="background-image: url('pics/ghaufre.jpg')"></div>
+                <div class="menu-item__info">
+                  <h3>sweety.......................<span class="menu-item__price">600 DA</span></h3>
+                  
+                  
+                </div>
+              </div>
+           
+      </section>
+        <!-- hadi rahi section ta3 pancake-->
+
+        <section id="pancake" class="menu-section"> 
+          <div class="section-title">
+            <h2><u><i>pancake</i></u></h2>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__image" style="background-image: url('pics/pancake.jpg')"></div>
+            <div class="menu-item__info">
+              <h3>nuttela.......................... <span class="menu-item__price">250 DA</span></h3>
+             
+             
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__image" style="background-image: url('pics/pancake.jpg')"></div>
+            <div class="menu-item__info">
+              <h3>nuttela au choix.......................<span class="menu-item__price">400 DA</span></h3>
+              <p>amande-cajou-noix</p>
+              
+            </div>
+          </div>
+        
+          <div class="menu-item">
+              <div class="menu-item__image" style="background-image: url('pics/pancake.jpg')"></div>
+              <div class="menu-item__info">
+                <h3>banane............................<span class="menu-item__price">300 DA.</span></h3>
+                
+                
+              </div>
+          </div>
+              <div class="menu-item">
+                  <div class="menu-item__image" style="background-image: url('pics/pancake.jpg')"></div>
+                  <div class="menu-item__info">
+                    <h3>banane au choix......................<span class="menu-item__price">450 DA.</span></h3>
+                    <p>amande-cajou-noix</p>
+                    
+                  </div></div>
+                  <div class="menu-item">
+                    <div class="menu-item__image" style="background-image: url('pics/pancake.jpg')"></div>
+                    <div class="menu-item__info">
+                      <h3>fruits............................<span class="menu-item__price">400 DA.</span></h3>
+                    </div>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-item__image" style="background-image: url('pics/pancake.jpg')"></div>
+                  <div class="menu-item__info">
+                    <h3>luxury au choix......................<span class="menu-item__price">500 DA</span></h3>
+                    <p>oreo-mars-bueno</p>
+                    
+                  </div>
+                </div>
+                <div class="menu-item">
+                  <div class="menu-item__image" style="background-image: url('pics/pancake.jpg')"></div>
+                  <div class="menu-item__info">
+                    <h3>sweety.......................<span class="menu-item__price">600 DA</span></h3>
+                    
+                    
+                  </div>
+                </div>
+             
+        </section>
+                <!-- hadi rahi section ta3 bubble waffle-->
+
+                <section id="bubble waffles" class="menu-section"> 
+                  <div class="section-title">
+                    <h2><u><i>bubble waffle</i></u></h2>
+                  </div>
+                  <div class="menu-item">
+                    <div class="menu-item__image" style="background-image: url('pics/bu.jpg')"></div>
+                    <div class="menu-item__info">
+                      <h3>nuttela.......................... <span class="menu-item__price">400 DA</span></h3>
+                     <p>boule de glace</p>
+                     
+                    </div>
+                  </div>
+                
+                
+                  <div class="menu-item">
+                      <div class="menu-item__image" style="background-image: url('pics/bu.jpg')"></div>
+                      <div class="menu-item__info">
+                        <h3>banane............................<span class="menu-item__price">500 DA.</span></h3>
+                        <p>boule de glace</p>
+                        
+                      </div>
+                  </div>
+                    
+                          
+                        
+                        <div class="menu-item">
+                          <div class="menu-item__image" style="background-image: url('pics/bu.jpg')"></div>
+                          <div class="menu-item__info">
+                            <h3>sweety.......................<span class="menu-item__price">600 DA</span></h3>
+                            
+                            
+                          </div>
+                        </div>
+                     
+                </section>
+                <!-- hadi rahi section ta3 ruitella-->
+
+                <section id="fruitella" class="menu-section"> 
+                  <div class="section-title">
+                    <h2><u><i>fruitella</i></u></h2>
+                  </div>
+                  <div class="menu-item">
+                    <div class="menu-item__image" style="background-image: url('pics/.jpg')"></div>
+                    <div class="menu-item__info">
+                      <h3>salade de fruit....................... <span class="menu-item__price">250 DA</span></h3>
+                    
+                     
+                    </div>
+                  </div>
+                
+                
+                  <div class="menu-item">
+                      <div class="menu-item__image" style="background-image: url('pics/fruit.jpg')"></div>
+                      <div class="menu-item__info">
+                        <h3>brochettes de fruits aux nuttela.............<span class="menu-item__price">300 DA.</span></h3>
+                        <p>boule de glace</p>
+                        
+                      </div>
+                  </div>
+                    
+                          
+                        
+                        <div class="menu-item">
+                          <div class="menu-item__image" style="background-image: url('pics/frr.jpg')"></div>
+                          <div class="menu-item__info">
+                            <h3>fruit au chocolat.............<span class="menu-item__price">350 DA</span></h3>
+                            
+                            
+                          </div>
+                        </div>
+                     
+                </section>
+                                <!-- hadi rahi section ta3 dessert-->
+
+                                <section id="dessert" class="menu-section"> 
+                                  <div class="section-title">
+                                    <h2><u><i>dessert</i></u></h2>
+                                  </div>
+                                  <div class="menu-item">
+                                    <div class="menu-item__image" style="background-image: url('pics/tiramisu.jpg')"></div>
+                                    <div class="menu-item__info">
+                                      <h3>tiramisu....................... <span class="menu-item__price">250 DA</span></h3>
+                                    
+                                     
+                                    </div>
+                                  </div>
+                                
+                                
+                                  <div class="menu-item">
+                                      <div class="menu-item__image" style="background-image: url('pics/mouse.jpg')"></div>
+                                      <div class="menu-item__info">
+                                        <h3>mousse aux chocolat.................<span class="menu-item__price">250 DA.</span></h3>
+                                        
+                                        
+                                      </div>
+                                  </div>
+                                    
+                                          
+                                        
+                                        <div class="menu-item">
+                                          <div class="menu-item__image" style="background-image: url('pics/cake.jpg')"></div>
+                                          <div class="menu-item__info">
+                                            <h3>cheesecake.............<span class="menu-item__price">300 DA</span></h3>
+                                            
+                                            
+                                          </div>
+                                        </div>
+                                     
+                                </section>
+                                   <!-- hadi rahi section ta3 smoothie-->
+
+                                   <section id="smothie" class="menu-section"> 
+                                    <div class="section-title">
+                                      <h2><u><i>smothie</i></u></h2>
+                                    </div>
+                                    <div class="menu-item">
+                                      <div class="menu-item__image" style="background-image: url('pics/smothie\ frase.jpg')"></div>
+                                      <div class="menu-item__info">
+                                        <h3>fraise....................... <span class="menu-item__price">400 DA</span></h3>
+                                      
+                                       
+                                      </div>
+                                    </div>
+                                  
+                                  
+                                    <div class="menu-item">
+                                        <div class="menu-item__image" style="background-image: url('pics/smoothie.jpg')"></div>
+                                        <div class="menu-item__info">
+                                          <h3>chocolat.................<span class="menu-item__price">400 DA.</span></h3>
+                                          
+                                          
+                                        </div>
+                                    </div>
+                                      
+                                            
+                                          
+                                          <div class="menu-item">
+                                            <div class="menu-item__image" style="background-image: url('pics/smoothie.jpg')"></div>
+                                            <div class="menu-item__info">
+                                              <h3>tropical.............<span class="menu-item__price">400 DA</span></h3>
+                                              
+                                              
+                                            </div>
+                                          </div>
+                                          <div class="menu-item">
+                                            <div class="menu-item__image" style="background-image: url('pics/smoothie.jpg')"></div>
+                                            <div class="menu-item__info">
+                                              <h3>maison.............<span class="menu-item__price">600 DA</span></h3>
+                                              
+                                              
+                                            </div>
+                                          </div>
+                                       
+                                  </section>
+                                   <!-- hadi rahi section ta3 milkchake-->
+
+                                   <section id="milkchake" class="menu-section"> 
+                                    <div class="section-title">
+                                      <h2><u><i>milkchake</i></u></h2>
+                                    </div>
+                                    <div class="menu-item">
+                                      <div class="menu-item__image" style="background-image: url('pics/milkchake.jpg')"></div>
+                                      <div class="menu-item__info">
+                                        <h3>classique....................... <span class="menu-item__price">400 DA</span></h3>
+                                      
+                                       
+                                      </div>
+                                    </div>
+                                  
+                                  
+                                    <div class="menu-item">
+                                        <div class="menu-item__image" style="background-image: url('pics/milkchake.jpg')"></div>
+                                        <div class="menu-item__info">
+                                          <h3>kinder.................<span class="menu-item__price">400 DA.</span></h3>
+                                      
+                                          
+                                        </div>
+                                    </div>
+                                      
+                                            
+                                          
+                                          <div class="menu-item">
+                                            <div class="menu-item__image" style="background-image: url('pics/milkchake.jpg')"></div>
+                                            <div class="menu-item__info">
+                                              <h3>kitkat.............<span class="menu-item__price">400 DA</span></h3>
+                                              
+                                              
+                                            </div>
+                                          </div>
+                                          <div class="menu-item">
+                                            <div class="menu-item__image" style="background-image: url('pics/milkchake.jpg')"></div>
+                                            <div class="menu-item__info">
+                                              <h3>oreo.............<span class="menu-item__price">600 DA</span></h3>
+                                              
+                                              
+                                            </div>
+                                          </div>
+                                       
+                                  </section>
+                                  <!-- hadi rahi section ta3 boisson froides-->
+
+                                  <section id="boisson froides" class="menu-section"> 
+                                    <div class="section-title">
+                                      <h2><u><i>boisson froides</i></u></h2>
+                                    </div>
+                                    <div class="menu-item">
+                                      <div class="menu-item__image" style="background-image: url('pics/nature.jpg')"></div>
+                                      <div class="menu-item__info">
+                                        <h3>jus nature cocktail....................... <span class="menu-item__price">250 DA</span></h3>
+                                      
+                                       
+                                      </div>
+                                    </div>
+                                  
+                                  
+                                    <div class="menu-item">
+                                        <div class="menu-item__image" style="background-image: url('pics/nature.jpg')"></div>
+                                        <div class="menu-item__info">
+                                          <h3>jus nature au choix.................<span class="menu-item__price">250 DA.</span></h3>
+                                        
+                                          
+                                        </div>
+                                    </div>
+                                      
+                                            
+                                          
+                                          <div class="menu-item">
+                                            <div class="menu-item__image" style="background-image: url('pics/citron.jpg')"></div>
+                                            <div class="menu-item__info">
+                                              <h3>jus citron.............<span class="menu-item__price">250 DA</span></h3>
+                                              
+                                              
+                                            </div>
+                                          </div>
+                                          <div class="menu-item">
+                                            <div class="menu-item__image" style="background-image: url('pics/mojito.jpg')"></div>
+                                            <div class="menu-item__info">
+                                              <h3>mojito ananas.............<span class="menu-item__price">300 DA</span></h3>
+                                              
+                                              
+                                            </div>
+                                          </div>
+                                          <div class="menu-item">
+                                            <div class="menu-item__image" style="background-image: url('pics/mojito.jpg')"></div>
+                                            <div class="menu-item__info">
+                                              <h3>mojito fraise.............<span class="menu-item__price">300 DA</span></h3>
+                                              
+                                              
+                                            </div>
+                                          </div>
+                                          <div class="menu-item">
+                                            <div class="menu-item__image" style="background-image: url('pics/mojito.jpg')"></div>
+                                            <div class="menu-item__info">
+                                              <h3>mojito bleu .............<span class="menu-item__price">300 DA</span></h3>
+                                              
+                                              
+                                            </div>
+                                          </div>
+                                          <div class="menu-item">
+                                            <div class="menu-item__image" style="background-image: url('pics/energy.jpg')"></div>
+                                            <div class="menu-item__info">
+                                              <h3>mojito energy <span class="menu-item__price"> </span></h3>
+                                              
+                                              
+                                            </div>
+                                          </div>
+                                       
+                                  </section>
+                                  <!-- hadi rahi section ta3 boisson chaudes-->
+
+                                  <section id="boisson chaudes" class="menu-section"> 
+                                    <div class="section-title">
+                                      <h2><u><i>boisson chaude</i></u></h2>
+                                    </div>
+                                    <div class="menu-item">
+                                      <div class="menu-item__image" style="background-image: url('pics/cafe.jpg')"></div>
+                                      <div class="menu-item__info">
+                                        <h3>cafe....................... <span class="menu-item__price">250 DA</span></h3>
+                                      
+                                       
+                                      </div>
+                                    </div> 
+                                  </section>
+
+                                  
+                        
+                      </div></section></section></section></section></div></div>
+
+                      <button onclick="topFunction()" id="goTopBtn" title="Go to top">
+                        <span>&#9650;</span>
+                      </button>
+                      <script>window.onscroll = function() {scrollFunction()};
+
+                        function scrollFunction() {
+                          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                            document.getElementById("goTopBtn").style.display = "block";
+                          } else {
+                            document.getElementById("goTopBtn").style.display = "none";
+                          }
+                        }
+                        
+                        // Scroll to the top when the button is clicked
+                        function topFunction() {
+                          document.body.scrollTop = 0;
+                          document.documentElement.scrollTop = 0;
+                        }</script>
+                   
+      
+                   
+                      
+       
+        
+    
+        
+        
+        
+        
+       
+    
+      
+      
+
+</body>
+</html>
+
+
